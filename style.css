@@ -1,0 +1,48 @@
+/* CSS Selector */
+body {
+/* CSS Rule */
+margin: 0;
+}
+
+header{
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+ul{
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  /* padding: 0; */
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+/* padding:0px 5px; */
+padding-inline: 10px; /* kun beholde denne.  */
+}
+
+ section{
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.homeSection{
+ background-color: lightgrey;
+}
+
+.aboutSection{
+  background-color: lightblue;
+
+}
+
+.projectsSection{
+  background-color: lightgreen;
+}
+
+footer{
+  display: flex;
+  justify-content: end;
+  color: darkblue;
+}
